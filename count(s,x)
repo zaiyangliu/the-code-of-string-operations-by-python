@@ -1,0 +1,11 @@
+def count(s,x):
+    
+    count=0
+    for i in range(0,len(s[:])-1):
+        if s[i]==x[0] and s[i+1]==x[1] :
+            print('the index of string',i)
+            count+=1
+    print('the number of the string ',count)
+s=input('please input the s string\n')
+x=input('pease input the x string\n')
+count(s,x)
